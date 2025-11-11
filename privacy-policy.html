@@ -1,86 +1,79 @@
+<!-- File: privacy-policy.html -->
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Privacy Policy — Drop Bot</title>
-<style>
-  :root{--bg:#071014;--card:#071827;--accent:#ffd3f7;--muted:#9fb0c8}
-  body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,#021220,#081829);color:#e7f0fb}
-  .wrap{max-width:880px;margin:40px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
-  h1{margin:0 0 8px 0}
-  p.lead{color:var(--muted);margin-top:0}
-  section{margin-top:18px}
-  dt{font-weight:700}
-  dd{margin:6px 0 14px 0;color:var(--muted)}
-  .small{font-size:13px;color:#bcd1e6}
-  a{color:var(--accent);text-decoration:none}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Drop Bot</title>
+  <meta name="description" content="Privacy Policy — Drop Bot (Luffy Corp). What data we collect and why." />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="wrap">
-    <header>
-      <h1>Privacy Policy</h1>
-      <p class="lead">Effective date: <strong>2025-11-11</strong><br>Drop Bot (operated by Luffy Corp). Contact: <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a></p>
-    </header>
+  <main class="doc-panel">
+    <article class="doc">
+      <header>
+        <h1>Privacy Policy</h1>
+        <p class="lead">Effective date: <strong>2025-11-11</strong><br>Drop Bot (operated by Luffy Corp). Contact: <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a></p>
+      </header>
 
-    <section>
-      <h2>1. Summary</h2>
-      <p class="small">Drop Bot facilitates community giveaways on Discord. This policy explains what minimal data is collected, why, how long it is retained, and how you can request deletion.</p>
-    </section>
+      <section>
+        <h2>1. Summary</h2>
+        <p class="muted">Drop Bot facilitates giveaways in Discord servers. This policy explains the minimal data we collect, why we collect it, how long it is retained, and how you can request access or deletion.</p>
+      </section>
 
-    <section>
-      <h2>2. Data we may collect</h2>
-      <dl>
-        <dt>Discord identifiers</dt>
-        <dd>Discord User IDs, Server (Guild) IDs, Channel IDs — required to operate the bot.</dd>
+      <section>
+        <h2>2. Data we may collect</h2>
+        <dl>
+          <dt>Discord identifiers</dt>
+          <dd class="muted">Discord User IDs, Server (Guild) IDs, Channel IDs — required for the bot to function and route messages.</dd>
 
-        <dt>Message information</dt>
-        <dd>Message IDs and message timestamps for messages participating in giveaways. This enables audit, dispute resolution, and prevents duplicate entries.</dd>
+          <dt>Message information</dt>
+          <dd class="muted">Message IDs and timestamps for messages participating in giveaways. This data enables audit, prevents duplicate entries, and helps resolve disputes.</dd>
 
-        <dt>Giveaway history</dt>
-        <dd>Records of past giveaway messages, winners, and timestamps for up to 7–30 days depending on server configuration.</dd>
-      </dl>
-    </section>
+          <dt>Giveaway history</dt>
+          <dd class="muted">Records of past giveaway messages, winners, and timestamps. Stored for audit and dispute resolution purposes (typically 7–30 days).</dd>
+        </dl>
+      </section>
 
-    <section>
-      <h2>3. Purpose & legal basis</h2>
-      <p class="small">We only collect the data necessary to run giveaways and provide dispute/audit logs to the server owner. The legal basis is legitimate interest: to operate and secure the service, prevent abuse, and provide accurate results.</p>
-    </section>
+      <section>
+        <h2>3. Purpose & legal basis</h2>
+        <p class="muted">We collect only what is necessary to operate the service and to prevent abuse. The legal basis is legitimate interest to operate Drop Bot reliably and securely.</p>
+      </section>
 
-    <section>
-      <h2>4. Retention</h2>
-      <p class="small">Data is retained for a maximum of 30 days by default. Typical retention is 7 days. Server owners may request longer or shorter retention; stored data is removed automatically when expired.</p>
-    </section>
+      <section>
+        <h2>4. Retention</h2>
+        <p class="muted">Data is retained for a maximum of 30 days by default. Common retention is 7 days. Server owners can request changes to retention where supported. Data is removed automatically when expired.</p>
+      </section>
 
-    <section>
-      <h2>5. Who has access</h2>
-      <dd class="small">Only the bot and the server owner (as configured) can see giveaway result messages and logs. No third-party analytics or marketing tracking is performed by Drop Bot.</dd>
-    </section>
+      <section>
+        <h2>5. Who has access</h2>
+        <p class="muted">Only the bot and the configured server owner(s) can access giveaway logs for that server. Drop Bot does not share logs with third-party marketing services.</p>
+      </section>
 
-    <section>
-      <h2>6. Third parties & payments</h2>
-      <p class="small">Drop Bot does not process payments. Any payments or prizes are handled by server owners independently, not via Drop Bot. If you choose to pay a third-party service connected to a server, please review that service's privacy policy.</p>
-    </section>
+      <section>
+        <h2>6. Third parties & payments</h2>
+        <p class="muted">Drop Bot does not process payments. Any payments or prize payouts are handled by the server owner separately from Drop Bot. If you make payments via a third-party, review that provider's privacy policy.</p>
+      </section>
 
-    <section>
-      <h2>7. Security</h2>
-      <p class="small">Secrets such as API tokens are never stored in public repositories. We follow basic security practices: environment variables for tokens, restricted access, and minimal storage duration.</p>
-    </section>
+      <section>
+        <h2>7. Security</h2>
+        <p class="muted">We follow basic security practices: environment variables for secrets, restricted access, minimal storage period, and not storing tokens in public repositories.</p>
+      </section>
 
-    <section>
-      <h2>8. Your rights</h2>
-      <p class="small">You may request access, correction, or deletion of personal data stored by Drop Bot by contacting <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a>. Removal requests targeting server-level stored data must be routed via the server owner where appropriate.</p>
-    </section>
+      <section>
+        <h2>8. Your rights</h2>
+        <p class="muted">You may request access, correction, or deletion of personal data by contacting <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a>. For server-level removals, please contact the server owner where appropriate.</p>
+      </section>
 
-    <section>
-      <h2>9. Changes to this policy</h2>
-      <p class="small">We may update this document. The effective date at the top will be updated. For material changes, we will provide a notice on our support contact.</p>
-    </section>
+      <section>
+        <h2>9. Changes</h2>
+        <p class="muted">We may update this policy. The effective date will be updated for material changes. Continued use after notice constitutes acceptance.</p>
+      </section>
 
-    <footer style="margin-top:18px;color:var(--muted);font-size:13px">
-      <div>Drop Bot — Luffy Corp • Contact: <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a></div>
-    </footer>
+      <footer class="doc-foot">
+        <div>Drop Bot — Luffy Corp • Contact: <a href="mailto:dropbot.us@gmail.com">dropbot.us@gmail.com</a></div>
+      </footer>
+    </article>
   </main>
 </body>
 </html>
